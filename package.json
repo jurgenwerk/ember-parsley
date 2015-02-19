@@ -1,7 +1,7 @@
 {
   "name": "ember-parsley",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "An Ember CLI addon for the ultimate JavaScript form validation library, Parsley.js",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,11 +11,11 @@
     "build": "ember build",
     "test": "ember test"
   },
-  "repository": "",
+  "repository": "https://github.com/matixmatix/ember-parsley",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Matic Jurglic",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.0",
@@ -33,7 +33,10 @@
     "glob": "^4.0.5"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "parsley",
+    "form",
+    "validation"
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config"
