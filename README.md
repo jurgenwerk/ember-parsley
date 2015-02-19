@@ -22,7 +22,7 @@ An Ember CLI Addon for the ultimate JavaScript form validation library [Parsley.
 </form>
 ```
 
-*  In your view or component's didInsertElement hook):
+*  In your view or component's didInsertElement hook:
 
 ```javascript
 parsley: (function() {
