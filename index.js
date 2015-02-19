@@ -2,7 +2,7 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-parsley'
+  name: 'ember-parsley',
 
   included: function(app) {
     this._super.included(app);
