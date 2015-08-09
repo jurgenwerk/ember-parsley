@@ -1,3 +1,7 @@
+# ember-parsley is DEPRECATED 😿
+
+In newer Ember.js versions custom HTML5 _data-*_ attributes are not discarded anymore, so you can freely use data-parsley-* attributes without using this add-on (whose point was to allow usage of data-parsley-* attributes in views in older Ember versions). You can install parsley.js via bower, include the library in your brocfile and you're good to go.
+
 # Ember-parsley
 
 An Ember CLI Addon for the ultimate JavaScript form validation library [Parsley.js](http://parsleyjs.org/)
